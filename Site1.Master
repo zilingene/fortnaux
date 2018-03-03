@@ -1,0 +1,59 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="Fortnaux.Site1" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="StyleSheet.css" rel="Stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    
+
+</head>
+<body>
+     <form id="form" runat="server">
+
+     <h1 style="text-align:center">
+
+     <asp:Image SRC ="images/logo.jpg"  ID="Image3" runat="server" Height ="89px" Width="108px" ImageAlign="Left"/>
+         UpStarters</h1>
+     <p>
+
+         &nbsp;</p>
+     <hr />
+     <div class="menu" >
+                 <a align="center" runat="server" href="Login.aspx">Home</a>
+            
+                 <a align="center" runat="server" href="Registration.aspx">Registration</a>
+          
+                 <a align="center" runat="server" href="Login.aspx">Login</a>
+             
+                 <a  align="center" runat="server" href="Listing.aspx.aspx">Payment</a>
+        
+            
+
+     </div>
+   
+
+          
+     <br />
+     <br />
+     <br />
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+    </form>
+     <br />
+
+     <h3 style="text-align:center"> All rights reserved </h3>
+ 
+
+ 
+</body>
+</html>
